@@ -1,0 +1,122 @@
+/* 
+* @Author: anchen
+* @Date:   2015-02-16 20:05:47
+* @Last Modified by:   anchen
+* @Last Modified time: 2015-02-20 15:02:29
+*/
+
+.panel-body > p > a:link,
+.panel-body > p > a:hover,
+.panel-body > p > a:focus{
+    text-decoration: none;
+    
+}
+.panel-body > p > a {
+    color: #0089FF;
+}
+
+.header,
+.content,
+.footer,
+.jumbotron,
+.nav {
+    width: 768px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.content p {
+    text-align: left;
+}
+
+body,
+.content h3,
+.panel-body p,
+.media-body > h4,
+.media-body > p{
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+
+
+.jumbotron h1,
+.jumbotron h2,
+.footer {
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+    text-align: center;
+}
+
+
+.media-object {
+    margin-left: 80px;
+    margin-right: 10px; 
+    border: 1px solid #777; 
+    box-shadow: 0px 0px 1px 1px #777;
+    border-radius: 6px;
+}
+
+.footer {
+    padding: 1px;
+    height: 55px;
+    background: #EEE;
+    
+}
+
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+    padding: 5px;
+    font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+    text-align: center;
+    vertical-align: center !important;
+
+}
+
+tr > th:nth-of-type(1){
+    width: 140px;
+}
+tr > th:nth-of-type(2){
+    width: 60px;
+    
+}
+tr > th:nth-of-type(3){
+    width: 50px;
+    
+}
+tr > th:nth-of-type(4),
+tr > th:nth-of-type(5){
+    width: 60px;
+    
+}
+tr > th:nth-of-type(6){
+    width: 170px;
+    
+}
+tr > th:nth-of-type(7){
+    width: 210px;    
+}
+
+nav {
+    margin: 0 250px;
+}
+
+.pagination > .nav-body > div {
+    display: inline-block;
+    float: left;
+}
+
+.pagination > .nav-body > div > ul {
+    margin: 0;
+}
+
+.pagination-sm > .nav-body > div > ul > li:first-child > a,
+.pagination-sm > .nav-body > div > ul > li:first-child > span,
+.pagination-sm > .nav-body > div > ul > li:last-child > a,
+.pagination-sm > .nav-body > div > ul > li:last-child > span {
+    border-radius: 0;
+}
+
+.load-view {
+    display: none;
+}
